@@ -1,0 +1,20 @@
+﻿<Window x:Class="PinGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PinGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-263.793,-62.069">
+        <Button x:Name="Row1" Content="Row1" HorizontalAlignment="Left" Margin="660.55,36.247,0,0" VerticalAlignment="Top" Width="75" Click="Row1_Click"/>
+        <Button x:Name="Row2" Content="Row2" HorizontalAlignment="Left" Margin="660.55,142.349,0,0" VerticalAlignment="Top" Width="75" Click="Row2_Click"/>
+        <Button x:Name="Row3" Content="Row3" HorizontalAlignment="Left" Margin="660.55,243.211,0,0" VerticalAlignment="Top" Width="75" Click="Row3_Click"/>
+        <Button x:Name="Row4" Content="Row4" HorizontalAlignment="Left" Margin="660.55,345.04,0,0" VerticalAlignment="Top" Width="75" Click="Row4_Click"/>
+        <TextBlock x:Name="row1Textblock" HorizontalAlignment="Left" Margin="187.274,36.247,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187.274,129.399,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834" RenderTransformOrigin="0.467,2.113"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187.274,230.261,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834" RenderTransformOrigin="0.429,3.163"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187.274,332.09,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834"/>
+
+    </Grid>
+</Window>
