@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PinGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,0,-263.793,-62.069">
+    <Grid Margin="0,0,-6.4,-5.6">
         <Button x:Name="Row1" Content="Row1" HorizontalAlignment="Left" Margin="660.55,36.247,0,0" VerticalAlignment="Top" Width="75" Click="Row1_Click"/>
         <Button x:Name="Row2" Content="Row2" HorizontalAlignment="Left" Margin="660.55,142.349,0,0" VerticalAlignment="Top" Width="75" Click="Row2_Click"/>
         <Button x:Name="Row3" Content="Row3" HorizontalAlignment="Left" Margin="660.55,243.211,0,0" VerticalAlignment="Top" Width="75" Click="Row3_Click"/>
@@ -15,7 +15,7 @@
         <TextBlock x:Name="row2Textblock" HorizontalAlignment="Left" Margin="187.274,129.399,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834" RenderTransformOrigin="0.467,2.113"/>
         <TextBlock x:Name="row3Textblock" HorizontalAlignment="Left" Margin="187.274,230.261,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834" RenderTransformOrigin="0.429,3.163"/>
         <TextBlock x:Name="row4Textblock" HorizontalAlignment="Left" Margin="187.274,332.09,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834"/>
-        <Button x:Name="changePlayer" Content="Change player" HorizontalAlignment="Left" Margin="428.641,364.24,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" IsCancel="True"/>
+        <Button x:Name="changePlayer" Content="Change player" HorizontalAlignment="Left" Margin="407.041,374.959,0,0" VerticalAlignment="Top" Width="96.6" Click="Button_Click" IsCancel="True"/>
 
     </Grid>
 </Window>

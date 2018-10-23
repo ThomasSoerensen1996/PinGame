@@ -23,6 +23,8 @@ namespace PinGame
         private int row2 = 3;
         private int row3 = 5;
         private int row4 = 7;
+        private string player1;
+        private string player2;
     
         public MainWindow()
         {
