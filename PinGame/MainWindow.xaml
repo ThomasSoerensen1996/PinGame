@@ -15,6 +15,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="187.274,129.399,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834" RenderTransformOrigin="0.467,2.113"/>
         <TextBlock HorizontalAlignment="Left" Margin="187.274,230.261,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834" RenderTransformOrigin="0.429,3.163"/>
         <TextBlock HorizontalAlignment="Left" Margin="187.274,332.09,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="62.069" Width="79.834"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="428.641,364.24,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
